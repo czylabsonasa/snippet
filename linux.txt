@@ -33,4 +33,11 @@ devtools::install_github('IRkernel/IRkernel')
 #
 Pkg.add("IJulia")
 Pkg.add("Winston") # a rajzolgatashoz
+#
+# jupyter/octave
+#
+python3 -m pip install --user octave_kernel
+
+
+
 
