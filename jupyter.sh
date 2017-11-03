@@ -28,11 +28,14 @@ apt install libssl-dev libcurl3-openssl-dev
 # ezutan ezekkel nem volt problema
 install.packages(c('devtools', 'uuid', 'digest'))
 devtools::install_github('IRkernel/IRkernel')
+IRkernel::installspec()
+
 #
 # jupyter/julia
 #
 Pkg.add("IJulia")
 Pkg.add("Winston") # a rajzolgatashoz
+
 #
 # jupyter/octave
 #
