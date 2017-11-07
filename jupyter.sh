@@ -52,7 +52,10 @@ Pkg.add("Winston") # a rajzolgatashoz
 # jupyter/octave
 #
 python3 -m pip install --user octave_kernel
-
+#
+# python sympy
+#
+python3 -m pip install --user sympy
 
 
 
