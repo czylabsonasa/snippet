@@ -3,11 +3,6 @@
 #
 
 
-#
-# dd iso image
-# just for remember, always forget it
-dd bs=4M if=/path/to/archlinux.iso of=/dev/sdx status=progress && sync
-
 
 # after a fresssh install xubuntu 17.04:
 sudo apt install python3-pip
@@ -24,7 +19,8 @@ export PATH=$PATH:~/.local/bin
 python3 -m pip install --user scipy # also installs numpy
 #python3 -m pip install --user numpy
 python3 -m pip install --user matplotlib
-
+# symbolic comp, derivation formula manipulation
+python3 -m pip install --user sympy
 #
 # jupyter/R
 #
@@ -52,10 +48,7 @@ Pkg.add("Winston") # a rajzolgatashoz
 # jupyter/octave
 #
 python3 -m pip install --user octave_kernel
-#
-# python sympy
-#
-python3 -m pip install --user sympy
+
 
 
 
