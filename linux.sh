@@ -19,8 +19,11 @@ echo 50 > /sys/devices/platform/smapi/BAT0/start_charge_thresh
 echo 80 > /sys/devices/platform/smapi/BAT0/stop_charge_thresh
 # is it persistent? wiki says, that we need sysfsutils for this
 
-
+# git
+$ git config --global user.name "neved"
+$ git config --global user.email "cimed"
 git remote set-url origin git@github.com:username/repo.git
+
 
 # long dirnames in terminal?
 add a '\n' before '$' for the 'PS1' variable in ~/.bashrc
