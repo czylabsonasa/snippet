@@ -23,6 +23,7 @@ echo 80 > /sys/devices/platform/smapi/BAT0/stop_charge_thresh
 $ git config --global user.name "neved"
 $ git config --global user.email "cimed"
 git remote set-url origin git@github.com:username/repo.git
+ssh-keygen -t rsa -b 4096 -C "cimed,egyeb info"
 
 
 # long dirnames in terminal?
