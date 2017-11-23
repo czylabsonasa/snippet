@@ -49,6 +49,15 @@ Pkg.add("Winston") # a rajzolgatashoz
 #
 python3 -m pip install --user octave_kernel
 
+# jupyter nbextensions
+python3 -m pip install --user  jupyter_contrib_nbextensions
+python3 -m pip install --user  jupyter_nbextensions_configurator
+jupyter-serverextension enable jupyter_nbextensions_configurator
+# itt valami nem működött
+~/.local/bin/jupyter-contrib-nbextension install --user
+# ezután ok (hide output miatt tettem fel)
 
-
+# interact
+sudo apt install blt tk8.6-blt2.5 python3-tk
+jupyter nbextension enable --py widgetsnbextension
 
