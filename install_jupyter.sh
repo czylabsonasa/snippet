@@ -2,6 +2,8 @@
 # Install Jupyter, R, Octave and Julia
 # Run as ./install_jupyter without sudo
 #
+# PS.: Script assumes you have ~/.local/bin in your PATH if not add it to your .bashrc
+#
 
 sudo apt install python3-pip r-base libssl-dev libcurl3-openssl-dev git julia
 python3 -m pip install --upgrade pip
