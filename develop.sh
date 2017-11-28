@@ -62,8 +62,8 @@ sudo apt install blt tk8.6-blt2.5 python3-tk
 jupyter nbextension enable --py widgetsnbextension
 
 #jupyter theme: https://github.com/dunovank/jupyter-themes
-pip install jupyterthemes
-pip install --upgrade jupyterthemes
+python3 -m pip install --user jupyterthemes
+python3 -m pip install --user --upgrade jupyterthemes
 jt -t onedork -fs 95 -altp -tfs 11 -nfs 115 -cellw 88% -T
 
 
