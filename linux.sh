@@ -14,6 +14,7 @@ sudo apt install tp-smapi-dkms
 sudo modprobe tp_smapi
 # getting/setting info
 # after sudo mc
+# laptop
 cat /sys/devices/platform/smapi/BAT0/cycle_count
 echo 50 > /sys/devices/platform/smapi/BAT0/start_charge_thresh
 echo 80 > /sys/devices/platform/smapi/BAT0/stop_charge_thresh
